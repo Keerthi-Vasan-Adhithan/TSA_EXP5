@@ -8,11 +8,11 @@
 To Illustrates how to perform time series analysis and decomposition on Apple stock price dataset.
 
 ### ALGORITHM:
-1. Import the required packages like pandas and numpy
-2. Read the data using the pandas
-3. Perform the decomposition process for the required data.
-4. Plot the data according to need, either seasonal_decomposition or trend plot.
-5. Display the overall results.
+1. Import the required packages like pandas.
+2. Load the dataset using pandas.
+3. Use the seasonal_decompose function to break down the time series data into trend, seasonal, and residual components.
+4. Plot the seasonal decomposition, trend, and residuals.
+5. Summarize and show the decomposition results.
 
 ### PROGRAM:
 ```PY
